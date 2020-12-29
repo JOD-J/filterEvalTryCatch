@@ -12,7 +12,7 @@ const filterByType = (type, ...values) => values.filter(value => typeof value ==
 			document.querySelector(spanSelector).textContent = msgText;
 		}
 	},
-
+// dfs
 	showError = msgText => showResponseBlock('.dialog__response-block_error', msgText, '#error'),
 
 	showResults = msgText => showResponseBlock('.dialog__response-block_ok', msgText, '#ok'),
